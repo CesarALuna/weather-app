@@ -1,0 +1,123 @@
+:root {
+    --primary-dark: #2e4052;
+    --secondary-dark: #ecf1f5;
+    --primary-light: #fbfffe;
+    --secondary-light: #efbc38;
+  }
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    line-height: 1.6;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--secondary-dark);
+}
+
+    /* HEADER */
+.header {
+    margin: 0;
+    padding: 0;
+    background:var(--primary-dark);
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5em;
+    font-weight: 700;
+    color: var(--primary-light);
+    margin-left: 20px;
+}
+
+.fa-cloud-sun {
+    color: var(--secondary-light);
+    margin-right: -0.5rem;
+}
+
+    /* BUTTON */
+button, input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    color: var(--primary-dark);
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+    /* MAIN */
+.main {
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.form {
+    padding: 1rem;
+    text-align: center;
+}
+
+.input {
+    margin-right: 0.5rem;
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    border: 2px solid transparent;
+}
+
+.btn {
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+    transition: border .1s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.btn:hover {
+    border: 2px solid var(--secondary-light);
+}
+
+.btn:active {
+    color: #999;
+    transform: scale(.9);
+}
+
+.search-result {
+    /* display: none; */
+    max-width: 350px;
+    padding: 2rem;
+    border-radius: 5px;
+    margin: 4rem auto;
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+    box-shadow: rgba(0, 0, 0, 0.85) 0 5 15px;
+}
+
+.search-result.active {
+    display:block;
+}
+
+.search-result * {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.search-result h3 {
+    border-radius: 5px;
+    color: var(--secondary-light);
+    font-size: 2.3rem;
+}
+
+.search-result p:nth-child(2) {
+    font-size: 2.1rem;
+}
+
+.search-result p {
+    font-size: 1.4rem;
+}
