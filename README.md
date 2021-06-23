@@ -15,8 +15,6 @@ https://cesaraluna.github.io/weather-app/
     
 ## acknowledgements
 
-[See this assignment on The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/weather-app)
-
-[Traversy Media tutorial on linting](https://www.youtube.com/watch?v=SydnKbGc7W8&ab_channel=TraversyMedia)
-
+[See this assignment on The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/weather-app)\
+[Traversy Media tutorial on linting](https://www.youtube.com/watch?v=SydnKbGc7W8&ab_channel=TraversyMedia)\
 [Web Dev Simplified video on Async/Await in JavaScript](https://www.youtube.com/watch?v=V_Kr9OSfDeU&ab_channel=WebDevSimplified)
