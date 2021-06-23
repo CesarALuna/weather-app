@@ -17,6 +17,7 @@ const weather = (() => {
             const data = convertData(await response.json());
             return data;
         } catch (error) {
+            // eslint-disable-next-line no-alert
             alert(error);
             return null;
         }
